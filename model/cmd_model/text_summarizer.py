@@ -13,7 +13,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 
 # Store the document as input_text and the summary as result
-input_text = input()
+input_text = input('Input paragrap here:')
 inputs = tokenizer(input_text, return_tensors="pt", truncation=True, padding=True, max_length=512)
 # Generate summary
 summary_ids = model.generate(inputs['input_ids'], max_length=150, num_beams=4, early_stopping=True)
