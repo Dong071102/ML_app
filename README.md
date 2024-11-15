@@ -1,4 +1,4 @@
-# ML_APP
+# Generative AI APP
 
 This project is an example of a Machine Learning application. Follow the steps below to set up and run the application.
 
@@ -43,6 +43,8 @@ python main.py
 
 ## Run model in comment line
 
+Before run model in comment line. Pls install **requirements.txt** first
+
 ### Step 1: move to folder
 
 ```bash
@@ -55,4 +57,8 @@ In the first time. It make a a few minutes because we need install the model wei
 
 ```bash
 python generative_image.py
+#or
+python generative_image.py
+#or
+python text_summarizer.py
 ```
