@@ -55,10 +55,8 @@ cd model/cmd_model
 
 In the first time. It make a a few minutes because we need install the model weight.
 
+## Training code
+
 ```bash
-python generative_image.py
-#or
-python generative_image.py
-#or
-python text_summarizer.py
+cd /train_code
 ```
